@@ -1,7 +1,7 @@
 # ignoring IKEv2 request, no policy configured
 
 ## Incident
-<img width="2075" height="1173" alt="image" src="https://github.com/user-attachments/assets/eff5efd3-bd39-44ff-b8e0-9fac7a24fc09" />
+<img width="2075" height="1173" alt="image" src="/assets/no_policy_configured.png" />
 
 After completing the configuration of the IPsec tunnel on both the PA VM and 100E, I ran a test connection via the PA VM CLI with "test vpn ike-sa gateway to-fortigate" to the 100E and watched the connection attempt live on the 100E, with debug enabled in the CLI. The connection attempt failed, and within the debug information, I saw the lines "Negotiate SA Error" and "ignoring IKEv2 request, no policy configured".
 
