@@ -119,7 +119,7 @@ Here are the command outputs of "diagnose vpn tunnel list" and "diagnose vpn ike
 
 <img width="2554" height="1269" alt="image" src="https://github.com/user-attachments/assets/0e64bda1-9904-48fb-9342-7b7c089a489b" />
 
-Here, I have both Ubuntu VMs open. On the left, 172.16.2.2 is the 100E side LAN B. On the right, 172.16.1.2 is the PA VM side LAN A. From each Ubuntu VM, I pinged the other to show that traffic could successfully flow through the tunnel and connect to the VM on the other side.
+Here I have both Ubuntu VMs open. On the left, 172.16.2.2 is the 100E side LAN B. On the right, 172.16.1.2 is the PA VM side LAN A. From each Ubuntu VM, I pinged the other to show that traffic could successfully flow through the tunnel and connect to the VM on the other side.
 
 <img width="2549" height="1264" alt="image" src="https://github.com/user-attachments/assets/c17b52e4-82ca-4d29-8caa-2bf4326981cd" />
 
